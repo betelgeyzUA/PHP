@@ -10,7 +10,7 @@
 
     echo $s.'<br>';
 
-    $s = fread($f, 6);
+    $s = fread($f, 16);
 
     echo $s.'<br>';
 
