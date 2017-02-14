@@ -6,11 +6,11 @@
         die ('Error open file');
     }
 
-    $s = fread($f, 5);
+    $s = fgets($f, 70);
 
     echo $s.'<br>';
 
-    $s = fread($f, 16);
+    $s = fgets($f, 70);
 
     echo $s.'<br>';
 
